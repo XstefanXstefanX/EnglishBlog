@@ -1,10 +1,13 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
-import "./App.css";
+import Nav from "./components/Navigation.jsx";
+import Article from "./components/Article.jsx";
 
 function App() {
-  return <>Hello World!</>;
+  return (
+    <>
+      <Nav></Nav>
+      <Article></Article>
+    </>
+  );
 }
 
 export default App;
