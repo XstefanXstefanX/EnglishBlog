@@ -3,7 +3,7 @@ import { Outlet, Link } from "react-router-dom";
 
 const Navigation = () => {
   return (
-    <div className="body background-cover">
+    <div className="body">
       <div className="header">
         <nav className="nav-bar">
           <ul className="nav-list">

@@ -7,7 +7,7 @@ import Article1 from "./pages/Article1.jsx";
 
 function App() {
   return (
-    <>
+    <div className="background-cover">
       <BrowserRouter>
         <Routes>
           <Route path="/EnglishBlog/" element={<Nav />}>
@@ -21,7 +21,7 @@ function App() {
           </Route>
         </Routes>
       </BrowserRouter>
-    </>
+    </div>
   );
 }
 

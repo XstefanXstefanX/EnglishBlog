@@ -30,6 +30,8 @@
 }
 .background-cover {
   width: 100%;
+
+  min-height: 100vh;
   height: 100%;
   background: rgba(0, 0, 0, 0.5);
 }
@@ -96,6 +98,22 @@ body {
 }
 
 /* Article Stylings */
+.search-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.search-bar {
+  font-size: 1.25rem;
+  padding: 0.5rem;
+  border-radius: 25px;
+  background: var(--dark-green);
+  color: var(--light-green);
+  border: 3px solid var(--yellow);
+}
+.search-bar:focus {
+  outline: none !important;
+}
 .articles-container {
   width: 100%;
   height: 100%;
@@ -215,6 +233,9 @@ body {
   }
 }
 @media (max-width: 40rem) {
+  .motto {
+    font-size: 1rem;
+  }
   .nav-list {
     font-size: 0.75rem;
     gap: 1rem;
@@ -235,8 +256,14 @@ body {
     #our-mission {
       grid-template-columns: 1rem 1fr 1rem;
       > img {
-        grid-column: 2 / 3;
+        grid-column: 1 / 4;
         grid-row: 3/4;
+      }
+      > h1 {
+        font-size: 2.5rem;
+      }
+      > p {
+        font-size: 1.25rem;
       }
     }
   }
