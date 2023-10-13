@@ -18,12 +18,14 @@ const Navigation = () => {
               </Link>
             </li>
             <li>
-              <Link to="/EnglishBlog/poetry" className="nav-link">
-                Poetry Contest
-              </Link>
+              <span className="nav-link">Poetry Contest</span>
             </li>
-            <li>Motivational Videos</li>
-            <li>Essay Contest</li>
+            <li>
+              <span className="nav-link">Motivational Videos</span>
+            </li>
+            <li>
+              <span className="nav-link">Essay Contest</span>
+            </li>
           </ul>
         </nav>
       </div>

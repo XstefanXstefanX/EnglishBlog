@@ -3,7 +3,7 @@ import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home.jsx";
 import Articles from "./pages/Articles.jsx";
-import Poetry from "./pages/Poetry.jsx";
+import Article1 from "./pages/Article1.jsx";
 
 function App() {
   return (
@@ -12,8 +12,12 @@ function App() {
         <Routes>
           <Route path="/EnglishBlog/" element={<Nav />}>
             <Route index element={<Home />}></Route>
+
             <Route path="/EnglishBlog/articles" element={<Articles />}></Route>
-            <Route path="/EnglishBlog/poetry" element={<Poetry />}></Route>
+            <Route
+              path="/EnglishBlog/articles/SaveThePlanet"
+              element={<Article1 />}
+            ></Route>
           </Route>
         </Routes>
       </BrowserRouter>
