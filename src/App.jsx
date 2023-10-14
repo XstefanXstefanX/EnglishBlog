@@ -12,7 +12,6 @@ function App() {
         <Routes>
           <Route path="/EnglishBlog/" element={<Nav />}>
             <Route index element={<Home />}></Route>
-
             <Route path="/EnglishBlog/articles" element={<Articles />}></Route>
             <Route
               path="/EnglishBlog/articles/SaveThePlanet"
