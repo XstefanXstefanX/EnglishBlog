@@ -27,7 +27,7 @@ const Article = (input) => {
                 {article.text}
               </p>
               <img
-                key={article.img.toString()}
+                key={article.img}
                 className="article-image"
                 // Must change this later
                 src={article.img}
