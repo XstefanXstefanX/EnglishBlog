@@ -29,7 +29,6 @@ const Article = (input) => {
               <img
                 key={article.img}
                 className="article-image"
-                // Must change this later
                 src={article.img}
                 alt="article-image"
               />
