@@ -3,18 +3,18 @@
     "id": 1,
     "title": "Save The Planet!",
     "text": "We don’t have to accept doom and gloom for the Earth. Together, we can slow the dual crises of climate and biodiversity loss. This is a hopeful wake-up call, but only if we act with great urgency.",
-    "img": "./src/components/assets/article-img1.JPG"
+    "img": "https://images.unsplash.com/photo-1501854140801-50d01698950b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1275&q=80"
   },
   {
     "id": 2,
     "title": "Earth Needs You!",
     "text": "We don’t have to accept doom and gloom for the Earth. Together, we can slow the dual crises of climate and biodiversity loss. This is a hopeful wake-up call, but only if we act with great urgency.",
-    "img": "./src/components/assets/article-img2.JPG"
+    "img": "https://images.unsplash.com/photo-1501854140801-50d01698950b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1275&q=80"
   },
   {
     "id": 3,
     "title": "Earth Needs You!",
     "text": "We don’t have to accept doom and gloom for the Earth. Together, we can slow the dual crises of climate and biodiversity loss. This is a hopeful wake-up call, but only if we act with great urgency.",
-    "img": "./src/components/assets/article-img3.JPG"
+    "img": "https://images.unsplash.com/photo-1501854140801-50d01698950b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1275&q=80"
   }
 ]
