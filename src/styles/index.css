@@ -26,7 +26,7 @@
   color: var(--light-green);
 }
 .body-content {
-  padding-top: 100px;
+  padding-top: 5rem;
 }
 .background-cover {
   width: 100%;
@@ -35,15 +35,11 @@
   background: rgba(0, 0, 0, 0.5);
 }
 body {
+  width: 100%;
+  height: 100%;
   transition: all 250ms ease;
   scroll-behavior: smooth;
-  background-image: url(./assets/environmental-protection-326923_1280.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-attachment: fixed;
-  width: 100%;
-  background-position: center;
+  background: var(--light-green);
 }
 /* Navigation Styling */
 .nav-link {
@@ -176,28 +172,40 @@ body {
   color: var(--light-green);
   font-size: 1.75rem;
   width: 50%;
-  right: 10%;
+  top: 2.5%;
+  right: 5%;
   position: absolute;
   border-radius: 10px;
-  border: 5px solid var(--brown);
-  display: flex;
+  border: 4px solid var(--brown);
 }
 .welcome-page-container {
+  position: relative;
   display: flex;
+  max-width: 100%;
   padding: 0 10%;
   flex-direction: column;
   align-items: center;
   #welcome {
-    height: 100vh;
+    border: 5px solid var(--dark-green);
+    background-image: url(./assets/environmental-protection-326923_1280.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    width: calc(100% + 10% * 2);
+    height: 80vh;
     text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     gap: 2rem;
     > h1 {
       font-size: 3.75rem;
+      text-shadow: 0 0 5px var(--dark-green);
     }
     > p {
+      background: var(--dark-green);
       font-size: 1.5rem;
       padding: 1rem;
       box-shadow: 0 0 5px 2px var(--light-green);
@@ -205,9 +213,9 @@ body {
     }
   }
   #our-mission {
-    margin: 0 0 10% 0;
+    margin: 10% 0;
     background: var(--white);
-    width: (100% + 100px);
+    width: 100%;
     min-height: 50vh;
     display: grid;
     padding: 1rem;
