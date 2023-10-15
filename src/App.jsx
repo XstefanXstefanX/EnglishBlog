@@ -8,13 +8,13 @@ import Article1 from "./pages/Article1.jsx";
 function App() {
   return (
     <div className="background-cover">
-      <BrowserRouter>
+      <BrowserRouter basename="/EnglishBlog/">
         <Routes>
-          <Route path="/EnglishBlog/" element={<Nav />}>
+          <Route path="/" element={<Nav />}>
             <Route index element={<Home />}></Route>
-            <Route path="/EnglishBlog/articles" element={<Articles />}></Route>
+            <Route path="/articles" element={<Articles />}></Route>
             <Route
-              path="/EnglishBlog/articles/SaveThePlanet"
+              path="/articles/SaveThePlanet"
               element={<Article1 />}
             ></Route>
           </Route>

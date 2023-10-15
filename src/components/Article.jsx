@@ -18,7 +18,7 @@ const Article = (input) => {
           <div className="article-container">
             <Link
               style={{ textDecoration: "none" }}
-              to="/EnglishBlog/articles/SaveThePlanet"
+              to="/articles/SaveThePlanet"
             >
               <h1 className="article-title" key={article.title.toString()}>
                 {article.title}
