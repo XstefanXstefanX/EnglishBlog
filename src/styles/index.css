@@ -219,7 +219,6 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    background-attachment: fixed;
     width: calc(100% + 10% * 2);
     height: 80vh;
     text-align: center;
