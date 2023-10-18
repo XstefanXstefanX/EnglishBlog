@@ -4,6 +4,8 @@ import { HashRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home.jsx";
 import Articles from "./pages/Articles.jsx";
 import Article1 from "./pages/Article1.jsx";
+import Article2 from "./pages/Article2.jsx";
+import data from "./components/data.json";
 
 function App() {
   return (
@@ -14,9 +16,10 @@ function App() {
             <Route index element={<Home />}></Route>
             <Route path="/articles" element={<Articles />}></Route>
             <Route
-              path="/articles/SaveThePlanet"
+              path="/articles/SustainableCities"
               element={<Article1 />}
             ></Route>
+            <Route path="articles/EarthNeedsYou" element={<Article2 />}></Route>
           </Route>
         </Routes>
       </HashRouter>

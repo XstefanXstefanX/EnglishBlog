@@ -277,6 +277,7 @@ body {
   gap: 1rem;
 }
 .main-article-container {
+  border-radius: 10px;
   margin: var(--margin);
   background: var(--yellow);
   display: flex;
