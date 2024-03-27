@@ -18,7 +18,9 @@ const Navigation = () => {
               </Link>
             </li>
             <li>
-              <span className="nav-link">Poetry Contest</span>
+              <Link to="/poetry" className="nav-link">
+                Poetry Contest
+              </Link>
             </li>
             <li>
               <span className="nav-link">Motivational Videos</span>
