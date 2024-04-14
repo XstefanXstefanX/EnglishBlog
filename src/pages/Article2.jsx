@@ -2,7 +2,7 @@ import React from "react";
 import data from "../components/data.json";
 
 const Article2 = () => {
-  const article = data.find((article) => article.id === 1);
+  const article = data.find((article) => article.id === 2);
   return (
     <div className="main-article-container">
       <h1 className="main-article-title">{article.title}</h1>
