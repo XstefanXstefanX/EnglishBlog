@@ -27,7 +27,9 @@
   color: var(--light-green);
 }
 .body-content {
-  padding-top: 5rem;
+  padding: 5rem 1rem;
+  display: flex;
+  justify-content: center;
 }
 .background-cover {
   width: 100%;
@@ -456,6 +458,29 @@ body {
       > p {
         font-size: 1.25rem;
       }
+    }
+  }
+}
+.essays-container {
+  border-radius: 1rem;
+  padding: 1rem;
+  width: 90%;
+  display: flex;
+  background: var(--brown);
+  align-items: center;
+  flex-direction: column;
+  gap: 5rem;
+}
+.essay {
+  color: var(--yellow);
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  > a {
+    width: 70%;
+    > img {
+      width: 100%;
     }
   }
 }

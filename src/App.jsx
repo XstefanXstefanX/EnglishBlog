@@ -20,7 +20,7 @@ function App() {
               path="/articles/SustainableCities"
               element={<Article1 />}
             ></Route>
-            <Route path="/poetry" element={<Poetry />}></Route>
+            <Route path="/essays" element={<Poetry />}></Route>
             <Route path="articles/EarthNeedsYou" element={<Article2 />}></Route>
           </Route>
         </Routes>
