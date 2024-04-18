@@ -1,12 +1,12 @@
 import React from "react";
 import links from "./assets/essays/essay-links.json";
 
-const Poetry = () => {
+const Essays = () => {
   return (
     <div className="essays-container">
-      {links.map((link) => {
+      {links.map((link, key) => {
         return (
-          <div className="essay">
+          <div className="essay" key={key}>
             <h1>title: {link["title"]}</h1>
             <h2>author: {link["author"]}</h2>
             <img src={link["link"]} />
@@ -16,4 +16,4 @@ const Poetry = () => {
     </div>
   );
 };
-export default Poetry;
+export default Essays;
