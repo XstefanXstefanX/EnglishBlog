@@ -9,9 +9,7 @@ const Poetry = () => {
           <div className="essay">
             <h1>title: {link["title"]}</h1>
             <h2>author: {link["author"]}</h2>
-            <a href={link["link"]}>
-              <img src={link["link"]} />
-            </a>{" "}
+            <img src={link["link"]} />
           </div>
         );
       })}
