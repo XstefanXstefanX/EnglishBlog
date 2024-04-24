@@ -7,8 +7,8 @@ const Essays = () => {
       {links.map((link, key) => {
         return (
           <div className="essay" key={key}>
-            <h1>title: {link["title"]}</h1>
-            <h2>author: {link["author"]}</h2>
+            <h1>title: </h1>
+            <h2>author: </h2>
             <img src={link["link"]} />
           </div>
         );

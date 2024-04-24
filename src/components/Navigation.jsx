@@ -22,6 +22,11 @@ const Navigation = () => {
                 Essays
               </Link>
             </li>
+            <li>
+              <Link to="/login" className="nav-link">
+                Login
+              </Link>
+            </li>
           </ul>
         </nav>
       </div>
