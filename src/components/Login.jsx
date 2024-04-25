@@ -1,5 +1,6 @@
 import React from "react";
 import { useState } from "react";
+import PageName from "./PageName";
 
 const Login = () => {
   const [nameValue, setNameValue] = useState("");
@@ -14,24 +15,27 @@ const Login = () => {
     setInputValue(event.target.value);
   };
   return (
-    <div className="login-container">
-      <form className="login">
-        <label>
-          Nume:
-          <input type="text" value={nameValue} onChange={handleName} />
-        </label>
-        <label>
-          Prenume:{" "}
-          <input type="text" value={surnameValue} onChange={handleSurname} />
-        </label>
-        <label>
-          Your Work:
-          <input type="text" />
-        </label>
-        <button type="submit" className="button">
-          Submit
-        </button>
-      </form>
+    <div>
+      <PageName name="Login" />
+      <div className="login-container">
+        <form className="login">
+          <label>
+            Nume:
+            <input type="text" value={nameValue} onChange={handleName} />
+          </label>
+          <label>
+            Prenume:{" "}
+            <input type="text" value={surnameValue} onChange={handleSurname} />
+          </label>
+          <label>
+            Your Work:
+            <input type="text" />
+          </label>
+          <button type="submit" className="button">
+            Submit
+          </button>
+        </form>
+      </div>
     </div>
   );
 };
