@@ -9,19 +9,22 @@ const Navigation = () => {
           <ul className="nav-list">
             <li>
               <Link to="/" className="nav-link">
-                Home
+                GreenRipple
               </Link>
             </li>
+            <li>/</li>
             <li>
               <Link to="/articles" className="nav-link">
                 Articles
               </Link>
             </li>
+            <li>/</li>
             <li>
               <Link to="/essays" className="nav-link">
                 Essays
               </Link>
             </li>
+            <li>/</li>
             <li>
               <Link to="/login" className="nav-link">
                 Login

@@ -28,7 +28,7 @@ div:has(.page-naming) {
 }
 .page-naming {
   width: (100%-2rem);
-  font-size: 3.5rem;
+  font-size: max(4vw, 2rem);
   position: relative;
   height: 40vh;
   display: flex;
@@ -67,6 +67,7 @@ div:has(.page-naming) {
   color: var(--light-green);
 }
 .body-content {
+  overflow-x: hidden;
   height: 100%;
   width: calc(100%-2rem);
   padding: 5rem 0;
@@ -118,6 +119,10 @@ body {
   text-decoration: none;
   color: var(--light-green);
 }
+.nav-link:hover {
+  color: var(--white);
+  transition: 250ms ease;
+}
 .nav-link::before {
   content: "";
   position: absolute;
@@ -160,9 +165,6 @@ body {
   > li {
     position: relative;
   }
-  > li:hover {
-    opacity: 0.7;
-  }
 }
 
 /* Article Stylings */
@@ -179,6 +181,7 @@ body {
   color: var(--light-green);
   border: 3px solid var(--yellow);
   margin: 2rem 0 0 0;
+  width: 80%;
 }
 .search-bar:focus {
   outline: none !important;
@@ -372,9 +375,6 @@ body {
 
 /* Mobile and Tablet Mode */
 @media (max-width: 40rem) {
-  .page-naming {
-    font-size: 2.5rem;
-  }
   .main-article-text {
     font-size: 1rem;
     & h1 {
