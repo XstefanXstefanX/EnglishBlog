@@ -189,6 +189,9 @@ body {
   flex-direction: column;
   align-items: center;
 }
+.article-container:hover {
+  opacity: 0.9;
+}
 .article-container {
   text-align: center;
   margin: 5rem var(--margin);
@@ -212,17 +215,6 @@ body {
   font-size: 2rem;
   position: relative;
   color: var(--blue);
-}
-.article-text,
-.article-title,
-.article-image:hover {
-  transition: all 250ms ease;
-}
-.article-title:hover,
-.article-text:hover,
-.article-image:hover {
-  color: var(--dark-green);
-  opacity: 0.8;
 }
 .article-title::before {
   content: "";
